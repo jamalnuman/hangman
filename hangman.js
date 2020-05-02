@@ -63,10 +63,10 @@ document.addEventListener("keypress", function(e) {
 });
 
 function win() {
-  alert(`You have won ${++userWins} time(s)`);
+  alert(`You won ${++userWins} time(s)`);
   setUpGame();
 }
 function lost() {
-  alert (`You have lost ${++userLost} time(s)`);
+  alert (`You lost ${++userLost} time(s)`);
   setUpGame();
 }
